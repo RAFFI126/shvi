@@ -28,7 +28,7 @@ Deno.test("Playing things", async (t) => {
     name: "playing 261.63 Hz /C4/ for one second",
     fn: async () => {
       const frequency = 261.63; // C4
-      const duration = 1000; // 1 second
+      const duration = 10000; // 1 second
 
       const samples = generatePCM(frequency, duration);
 
